@@ -26,6 +26,7 @@ class CashRegister
    @items
  end
  def void_last_transaction
-   self.total = @total - @transaction[@transaction.length -1]
+   #self.total = @total - @transaction[@transaction.length -1]
+   @transaction
  end
 end
